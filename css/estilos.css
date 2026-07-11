@@ -1,0 +1,72 @@
+body {
+
+    background-image: url("../imagenes/fondo.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    min-height: 100vh;
+}
+
+/* Capa oscura */
+
+.fondo {
+
+    background: rgba(0, 0, 0, 0.7);
+
+    min-height: 100vh;
+
+    padding: 30px;
+}
+
+/* Título */
+
+h1 {
+
+    color: white;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+/* Tarjetas */
+
+.card {
+
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+
+    margin-bottom: 20px;
+}
+
+/* Tabla */
+
+table {
+
+    background: white;
+}
+
+/* Botón */
+
+.btn-verde {
+
+    background: #198754;
+
+    color: white;
+}
+
+.btn-verde:hover {
+
+    background: #146c43;
+
+    color: white;
+}
